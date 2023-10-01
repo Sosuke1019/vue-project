@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HandlingUserInput from './views/HandlingUserInput.vue'
-import About from './views/About.vue'
+import AttributeBindings from './views/AttributeBindings.vue'
 
 const routes = [
     {
@@ -9,9 +9,9 @@ const routes = [
         component: HandlingUserInput,
     },
     {
-        path: '/about',
-        name: 'about',
-        component: About,
+        path: '/AttributeBindings',
+        name: 'AttributeBindings',
+        component: AttributeBindings,
     }
 ]
 
