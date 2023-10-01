@@ -9,11 +9,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { ref } from 'vue'
 
 let title = ref("Hello World!")
 
-const isPurple = ref(true)
+const isPurple = ref(false)
 
 const reverseMessage = () => {
     title.value = title.value.split('').reverse().join('');
