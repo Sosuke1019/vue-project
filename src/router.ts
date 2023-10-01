@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HandlingUserInput from './views/HandlingUserInput.vue'
 import AttributeBindings from './views/AttributeBindings.vue'
+import ConditionalsAndLoops from './views/ConditionalsAndLoops.vue'
+import FormBindings from './views/FormBindings.vue'
 
 const routes = [
     {
@@ -12,6 +14,16 @@ const routes = [
         path: '/AttributeBindings',
         name: 'AttributeBindings',
         component: AttributeBindings,
+    },
+    {
+        path: '/ConditionalsAndLoops',
+        name: 'ConditionalsAndLoops',
+        component: ConditionalsAndLoops,
+    },
+    {
+        path: '/FormBindings',
+        name: 'FormBindings',
+        component: FormBindings,
     }
 ]
 
